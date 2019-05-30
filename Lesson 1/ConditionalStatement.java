@@ -1,5 +1,5 @@
 public class ConditionalStatement {
-	public static void main (String [] args) {
+	public static void main(String[] args) {
 		int i = 32;
 		if (i > 20) {
 			System.out.println("Вам больше 20 лет. Точнее, вам " + i + " года");
@@ -12,7 +12,7 @@ public class ConditionalStatement {
 			System.out.println("Вы - женщина");
 		}
 		
-		double height = 1.65d;
+		double height = 1.65;
 		if (height < 1.80) {
 			System.out.println("У вас средний рост, равный " + height + "м");
 		} else {
